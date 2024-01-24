@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import IntroPage from './Components/pages/Intro/IntroPage'
 import Loginpage from './Components/Auth/Loginpage'
-import HomePage from './Components/pages/Home/homepage'
+import HomePage from './Components/pages/Home/Home'
 
 const route=createBrowserRouter([
   {
