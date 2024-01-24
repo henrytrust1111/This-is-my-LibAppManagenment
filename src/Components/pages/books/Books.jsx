@@ -45,7 +45,7 @@ const Books = ({ handleBook }) => {
         </div>
         <div className="filter-icon-wrapper">
           <div className="filter-icon-holder">
-            <img src="public/Images/mi_filter.svg" alt="" />
+            <img src="./Images/mi_filter.svg" alt="" />
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ const Books = ({ handleBook }) => {
       </div>
       <div className="add-icon">
         <div className="add-icon-holder" onClick={handleBook}>
-          <img src="public/Images/mingcute_add-line.svg" alt="" />
+          <img src="./Images/mingcute_add-line.svg" alt="" />
         </div>
       </div>
     </div>

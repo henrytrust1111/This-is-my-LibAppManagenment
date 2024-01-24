@@ -12,7 +12,7 @@ const Context = ({ children }) => {
       mail: "abcd@gmail.com",
       phone: "12345678901",
       isAdmin: true,
-      image: "public/Images/usersImages/am_antir_vepu-1 1 (3).png",
+      image: "./Images/usersImages/am_antir_vepu-1 1 (3).png",
     },
     {
       id: 2,
@@ -23,7 +23,7 @@ const Context = ({ children }) => {
       mail: "abcd@gmail.com",
       phone: "555",
       isAdmin: false,
-      image: "public/Images/usersImages/am_antir_vepu-1 1 (4).png",
+      image: "./Images/usersImages/am_antir_vepu-1 1 (4).png",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const Context = ({ children }) => {
       mail: "ananda@outlook.com",
       phone: "2255889977",
       isAdmin: true,
-      image: "public/Images/usersImages/am_antir_vepu-1 1 (5).png",
+      image: "./Images/usersImages/am_antir_vepu-1 1 (5).png",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const Context = ({ children }) => {
       mail: "asdf@mai.com",
       phone: "5656565656",
       isAdmin: false,
-      image: "public/Images/usersImages/am_antir_vepu-1 1 (6).png",
+      image: "./Images/usersImages/am_antir_vepu-1 1 (6).png",
     },
   ];
   const books=[
@@ -59,7 +59,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Story",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (1).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (1).png"
     },
     {
       id:2,
@@ -71,7 +71,7 @@ const Context = ({ children }) => {
       price:"₹ 321",
       categories:"Story",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (2).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (2).png"
     },
     {
       id:3,
@@ -83,7 +83,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Science",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1.png"
+      images:"./Images/booksImages/am_antir_vepu-1 1.png"
     },
     {
       id:4,
@@ -95,7 +95,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Science",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (1).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (1).png"
     },
     {
       id:5,
@@ -107,7 +107,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Science",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (2).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (2).png"
     },
     {
       id:6,
@@ -119,7 +119,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Science",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1.png"
+      images:"./Images/booksImages/am_antir_vepu-1 1.png"
     },
     {
       id:7,
@@ -131,7 +131,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Story",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (1).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (1).png"
     },
     {
       id:8,
@@ -143,7 +143,7 @@ const Context = ({ children }) => {
       price:"₹ 379",
       categories:"Story",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1 (1).png"
+      images:"./Images/booksImages/am_antir_vepu-1 1 (1).png"
     },
     {
       id:9,
@@ -155,7 +155,7 @@ const Context = ({ children }) => {
       price:"₹ 600",
       categories:"Drama",
       languages:"English",
-      images:"public/Images/booksImages/am_antir_vepu-1 1.png"
+      images:"./Images/booksImages/am_antir_vepu-1 1.png"
     },
   ]
   const logginUser=[];

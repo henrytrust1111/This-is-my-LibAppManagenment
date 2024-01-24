@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #fff;
-  background-image: url("/src/Components/Images/Intro\ page.png");
+  background-image: url("./Images/Intro\ page.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
