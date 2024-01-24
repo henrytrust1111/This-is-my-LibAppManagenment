@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import IntroPage from './Components/pages/Intro/IntroPage'
 import Loginpage from './Components/Auth/Loginpage'
-import HomePage from './Components/pages/Home/HomePage'
+import HomePage from './Components/pages/Home/homepage'
 
 const route=createBrowserRouter([
   {
@@ -18,6 +18,8 @@ const route=createBrowserRouter([
     element:<HomePage />
   },
 ])
+
+
 function App() {
   return (
     <RouterProvider router={route} />

@@ -249,7 +249,8 @@ const HomePage = () => {
           ) : userForm ? (
             <UserForm handleCancelUserForm={handleCancelUserForm} />
           ) : bookForm ? (
-            <BooksForm handleCancelBookForm={handleCancelBookForm} />
+            <BooksForm handleCancelBookForm={handleCancelBookForm
+            } />
           ) : (
             <CheckIn />
           )}
