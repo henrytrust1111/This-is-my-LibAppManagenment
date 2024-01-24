@@ -114,34 +114,34 @@ const HomePage = () => {
       <div className="homepage-left">
         <div className="homepage-left-wrapper">
           <div className="homepage-left-wrapper-logoHolder">
-            <img src="src/Components/Images/Logo.png" alt="" />
+            <img src="public/Images/Logo.png" alt="" />
           </div>
           <div className="navigation-wrapper">
             <div className="navigation-icons-container">
               <div className={`${(checkin || checkout)? "active-border icon-container":"icon-container"}`}>
                 <img
-                  src="src/Components/Images/material-symbols_local-library-outline.svg"
+                  src="public/Images/material-symbols_local-library-outline.svg"
                   alt=""
                 />
               </div>
               <div className={`${(books)? "active-border icon-container":"icon-container"}`}>
                 <img
-                  src="src/Components/Images/healthicons_register-book-outline.svg"
+                  src="public/Images/healthicons_register-book-outline.svg"
                   alt=""
                 />
               </div>
               <div className={`${(users)? "active-border icon-container":"icon-container"}`}>
-                <img src="src/Components/Images/Staff.svg" alt="" />
+                <img src="public/Images/Staff.svg" alt="" />
               </div>
               <div className="icon-container">
-                <img src="src/Components/Images/User Shield.png" alt="" />
+                <img src="public/Images/User Shield.png" alt="" />
               </div>
               <div className="icon-container">
-                <img src="src/Components/Images/gala_search.svg" alt="" />
+                <img src="public/Images/gala_search.svg" alt="" />
               </div>
               <div className="icon-container">
                 <img
-                  src="src/Components/Images/ic_sharp-attach-money.svg"
+                  src="public/Images/ic_sharp-attach-money.svg"
                   alt=""
                 />
               </div>
@@ -173,13 +173,13 @@ const HomePage = () => {
           <div className="setting-logout-wrapper">
             <div className="setting">
               <img
-                src="src/Components/Images/mingcute_settings-7-line.svg"
+                src="public/Images/mingcute_settings-7-line.svg"
                 alt=""
               />
             </div>
             <div className="logout" onClick={logout}>
               <img
-                src="src/Components/Images/logout.svg"
+                src="public/Images/logout.svg"
                 alt=""
               />
             </div>
@@ -194,7 +194,7 @@ const HomePage = () => {
                 <p>
                   {formatted_time} <br /> {time_time}
                 </p>
-                <img src="src/Components/Images/twemoji_calendar.svg" alt="" />
+                <img src="public/Images/twemoji_calendar.svg" alt="" />
                 <div className="calender-day">{day_of_month}</div>
                 <div className="calender-month">{abbreviated_month}</div>
               </div>
@@ -217,7 +217,7 @@ const HomePage = () => {
                   <div className="switch">
                     {toggle ? (
                       <img
-                        src="src/Components/Images/toggle switch (2).svg"
+                        src="public/Images/toggle switch (2).svg"
                         alt=""
                         onClick={() => {
                           setCheckin(true);
@@ -226,7 +226,7 @@ const HomePage = () => {
                       />
                     ) : (
                       <img
-                        src="src/Components/Images/toggle switch.svg"
+                        src="public/Images/toggle switch.svg"
                         alt=""
                         onClick={() => {
                           setCheckout(true);

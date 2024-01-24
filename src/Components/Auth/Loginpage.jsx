@@ -44,7 +44,7 @@ const Loginpage = () => {
         <div className="login-form-right-container">
           <div className="login-form-right-container-holder">
             <div className="logo-holder">
-              <img src="src/Components/Images/Logo.png" alt="" />
+              <img src="public/Images/Logo.png" alt="" />
             </div>
             <p className="login-text">LOGIN</p>
             <form action="">

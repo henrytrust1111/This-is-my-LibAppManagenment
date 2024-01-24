@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #fff;
-  background-image: url("src/Components/Images/LandingPage.png");
+  background-image: url("public/Images/LandingPage.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -147,7 +147,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #fff;
-  background-image: url("src/Components/Images/homeRight.png");
+  background-image: url("public/Images/homeRight.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

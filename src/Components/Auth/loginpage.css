@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #000;
-  background-image: url("src/Components/Images/Home.png");
+  background-image: url("public/Images/Home.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
