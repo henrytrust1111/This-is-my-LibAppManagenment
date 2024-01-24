@@ -1,0 +1,41 @@
+.checkout-page {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background: linear-gradient(
+    124deg,
+    rgba(229, 229, 229, 0.3) -6.89%,
+    rgba(217, 217, 217, 0) 115.76%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25), 5px 4px 4px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
+  padding-block-end: 20px;
+  animation: slide-in 0.5s ease;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.checkout-wrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.btn-submit{
+    right: 170px;
+}
